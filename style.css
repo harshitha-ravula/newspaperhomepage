@@ -1,0 +1,152 @@
+body{
+    margin: 20px;
+    font-size: 100%;
+    
+}
+.logo{
+    padding:5px;
+}
+.attribution { 
+    font-size: 11px;
+    display: inline-flex;
+    margin-right: 20px;
+    float: right;
+
+    }
+.attribution li {
+    padding: 5px;
+    margin:10px;
+    display: inline-flex
+
+}
+.attribution li a{
+    color: hsl(225, 2%, 38%);
+    text-decoration: none;
+    
+
+}
+.attribution li :hover{
+    
+    color:orange;
+} 
+
+.c1 { grid-area: image; }
+.c2 { grid-area: card; }
+.c3 { grid-area: para; }
+.c4 { grid-area: button; }
+.c5 { grid-area: im1; }
+.c6{grid-area: im2;}
+.c7{grid-area: im3;}
+
+
+
+.grid-container {
+  display: grid;
+  width:100%;
+  grid-template-areas:
+    'image image image image image image image card card '
+    'para para para para button button button  card card'
+    'im1 im1 im1 im2 im2 im2 im3 im3 im3';
+  gap: 5px;
+  padding: 10px;
+  
+}
+.c1{
+    float:left;
+    width:95.66%;
+    
+}
+.c1 img{
+    width:100%;
+
+    
+}
+.c2{
+    background-color: black;
+    padding:5px;
+    height: 80%;
+
+}
+#id2:hover{
+    color:orange;
+}
+.c2 a{
+    text-decoration: none;
+}
+.c3 h1{
+    font-size:4em;
+    width:150%;
+
+}
+.c4 p{
+    color: rgb(126, 123, 123);
+    font-size:1.5em;
+    width:90%;
+    font-family:sans-serif;
+
+    
+
+}
+.btn{
+    background-color: orangered;
+    color: white;
+    padding: 5px;
+    border-color: orangered;
+    align-items: center;
+}
+.btn:hover{
+  background-color:black;
+  border-color:black;
+}
+#id1{
+    color: orange;
+}
+#id2{
+    color:white;
+    
+}
+#id3{
+    color:rgb(135, 138, 142);
+}
+
+
+
+
+.c5 img {
+    width:40%;
+    float:left;
+    height:70%
+}
+.c5 p{
+    width:50%;
+    float:right;
+    
+}
+.c6 img {
+    width:40%;
+    float:left;
+    height: 70%;
+    
+}
+.c6 p{
+    width:50%;
+    float:right;
+}
+.c7 img {
+    width:40%;
+    float:left;
+    height:70%;
+    
+}
+.c7 p{
+    width:50%;
+    float:right;
+}
+
+.har:hover{
+    color:orangered;
+}
+.c5 a,.c6 a,.c7 a{
+    text-decoration: none;
+    color:black;
+}
