@@ -1,13 +1,16 @@
 body{
-    margin: 20px;
+    margin-left:6em;
+    margin-right: 6em;
     font-size: 100%;
+    padding:1.5em;
+    
     
 }
 .logo{
     padding:5px;
 }
 .attribution { 
-    font-size: 11px;
+    font-size: 1.1em;
     display: inline-flex;
     margin-right: 20px;
     float: right;
@@ -44,8 +47,8 @@ body{
   display: grid;
   width:100%;
   grid-template-areas:
-    'image image image image image image image card card '
-    'para para para para button button button  card card'
+    'image image image image image image card card card '
+    'para para para button button button card card card'
     'im1 im1 im1 im2 im2 im2 im3 im3 im3';
   gap: 5px;
   padding: 10px;
@@ -115,7 +118,7 @@ body{
 .c5 img {
     width:40%;
     float:left;
-    height:70%
+    height:100%
 }
 .c5 p{
     width:50%;
@@ -125,7 +128,7 @@ body{
 .c6 img {
     width:40%;
     float:left;
-    height: 70%;
+    height:100%;
     
 }
 .c6 p{
@@ -135,11 +138,11 @@ body{
 .c7 img {
     width:40%;
     float:left;
-    height:70%;
+    height:100%;
     
 }
 .c7 p{
-    width:50%;
+    width:30%;
     float:right;
 }
 
