@@ -59,10 +59,17 @@ body{
     width:95.66%;
     
 }
-.c1 img{
+#img1{
     width:100%;
+    display:block;
 
     
+}
+#img2{
+    display:none;
+}
+#img3{
+    display:none;
 }
 .c2{
     background-color: black;
@@ -152,4 +159,89 @@ body{
 .c5 a,.c6 a,.c7 a{
     text-decoration: none;
     color:black;
+}
+@media only screen and (max-width:600px){
+    .c1{
+        width:100%
+    }
+    
+    #img1{
+        
+        display:none;   
+    }
+    #img2{
+        display:block;
+        width:100%;
+
+    }
+.c1 { grid-area: image; }
+.c2 { grid-area: card; }
+.c3 { grid-area: para; }
+.c4 { grid-area: button; }
+.c5 { grid-area: im1; }
+.c6{grid-area: im2;}
+.c7{grid-area: im3;}
+
+
+
+.grid-container {
+  display: grid;
+  width:100%;
+  grid-template-areas:
+    'image '
+    'para'
+    'button'
+    'card'
+    'im1'
+    'im2'
+    'im3';
+  row-gap:1.5em;
+  padding: 10px;
+  
+}
+.c2{
+    background-color: black;
+    padding:5px;
+    height:auto;
+
+}
+.c3{
+    font-size: 0.8em;
+}
+#img3{
+    display:block;
+    float:right;
+   
+    
+    
+}
+
+#navtags{
+    display:none;
+}
+.attribution { 
+    font-size: 1.1em;
+    display:inline-flex;
+    margin-right: 20px;
+    float: right;
+    
+
+    }
+.attribution li {
+    margin:10px;
+    display:block;
+    
+
+}
+.attribution li a{
+    color: hsl(225, 2%, 38%);
+    text-decoration: none;
+    
+
+}
+.attribution li :hover{
+    
+    color:orange;
+} 
+
 }
